@@ -1,0 +1,480 @@
+2022-12-23 15:52:11.711 [INFO] 'B34' USER SAMPLING (user_sampler.py:87)
+2022-12-23 16:43:27.450 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/zZDiUcMGN6vp67GFu-Asw267muWff_G8Sy-e4ECm4rC4sqXXQLHdpYN3DCD-TvrIUtv5sdCJ2DKOiQ (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/zZDiUcMGN6vp67GFu-Asw267muWff_G8Sy-e4ECm4rC4sqXXQLHdpYN3DCD-TvrIUtv5sdCJ2DKOiQ
+2022-12-23 17:00:57.683 [WARNING] 500 Server Error: Internal Server Error for url: https://lol.api.ggq.gg/application/v1/summoners/gjzEEAZ-7VhSdGYo6rgje1lCURQtYWKEeVn1FUFwkrYXZ1Wfrou4-hWBbaPC6YFy_ONHEda0BV3Udg (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://lol.api.ggq.gg/application/v1/summoners/gjzEEAZ-7VhSdGYo6rgje1lCURQtYWKEeVn1FUFwkrYXZ1Wfrou4-hWBbaPC6YFy_ONHEda0BV3Udg
+2022-12-23 17:24:21.639 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/YFGh5X2T4q4TjlyEZcyx-OY_wDRsIFAaPliTuL7Y6B9H6xkG8q7wnhasQoMEyhObY0ZZ63VUAJvl-A (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/YFGh5X2T4q4TjlyEZcyx-OY_wDRsIFAaPliTuL7Y6B9H6xkG8q7wnhasQoMEyhObY0ZZ63VUAJvl-A
+2022-12-23 17:33:30.078 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/USTwfV14VlcFyftm5DUy1OS7X9cLDwIcp2zmiKaL4UXhs_3Fa-3qKWAGNKB8XXD5yBdwiUF_13Jt4Q (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/USTwfV14VlcFyftm5DUy1OS7X9cLDwIcp2zmiKaL4UXhs_3Fa-3qKWAGNKB8XXD5yBdwiUF_13Jt4Q
+2022-12-23 17:39:47.991 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/8SQ0jPDY_AMFa4q7H4vOHugojwqHi2sXKIf3Br_46WE7VQfZ_OEn_xf8SgMcTC-c0HS1RpRde_f1_Q (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/8SQ0jPDY_AMFa4q7H4vOHugojwqHi2sXKIf3Br_46WE7VQfZ_OEn_xf8SgMcTC-c0HS1RpRde_f1_Q
+2022-12-23 17:42:50.069 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/avMM-XyICctEY3ysuqAUc6nz6pJc6-48XJJLq6DK-iZvydSFf3_3jflubaRl0hDXLD0cMEsOqdsw0A (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/avMM-XyICctEY3ysuqAUc6nz6pJc6-48XJJLq6DK-iZvydSFf3_3jflubaRl0hDXLD0cMEsOqdsw0A
+2022-12-23 18:35:59.813 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/f-MDP_R3LSzS02CX-Z_zpgIFRL7Tvwm_4mywtHWV-hFwMvqvuLQ1j8b4xWHDu7Tlr2utIdQSMHJkDg (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/f-MDP_R3LSzS02CX-Z_zpgIFRL7Tvwm_4mywtHWV-hFwMvqvuLQ1j8b4xWHDu7Tlr2utIdQSMHJkDg
+2022-12-23 18:58:47.908 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/Y3M0Oohh4Jp0JzxWujfQIqL0FaLBgkIbHTyFttkfvwc4Pxg3I285MmHDw5XT0XZmxORDoCEMT4Qpeg (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/Y3M0Oohh4Jp0JzxWujfQIqL0FaLBgkIbHTyFttkfvwc4Pxg3I285MmHDw5XT0XZmxORDoCEMT4Qpeg
+2022-12-23 19:29:01.782 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/ZP1Q3DBsDs69voL9qeErZuGV9enAheiJ0JVJJSHPuSDV17k2OSLfK-cKnJ40aPtJqTvYpZ8TQzbg9A (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/ZP1Q3DBsDs69voL9qeErZuGV9enAheiJ0JVJJSHPuSDV17k2OSLfK-cKnJ40aPtJqTvYpZ8TQzbg9A
+2022-12-23 19:30:09.541 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/qZgF0DaP7ZyBjrS3UjbTNfhenWbo6G7kUgQtZGQjA0ozNJQUB8qmwDEhlzTJHABfLgIC-vSkkOg6bQ (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/qZgF0DaP7ZyBjrS3UjbTNfhenWbo6G7kUgQtZGQjA0ozNJQUB8qmwDEhlzTJHABfLgIC-vSkkOg6bQ
+2022-12-23 19:31:52.347 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/BrrMKgthXzVlPLqw_09X_INgag6Hp4dX683sFLuVJVIfhX0XusNTxGktjpPH9hb_hMEsZ39TfFXMTA (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/BrrMKgthXzVlPLqw_09X_INgag6Hp4dX683sFLuVJVIfhX0XusNTxGktjpPH9hb_hMEsZ39TfFXMTA
+2022-12-23 19:34:43.769 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/WbKE7bMZ5Eo-67nkpKoDpW8ABBBcpRDqgpChQEFRBsA7LRElogEHWU_gVLF8cJNvY8SCAjUN3BiPKw (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/WbKE7bMZ5Eo-67nkpKoDpW8ABBBcpRDqgpChQEFRBsA7LRElogEHWU_gVLF8cJNvY8SCAjUN3BiPKw
+2022-12-23 19:35:57.979 [INFO] Tier: TierGroup.B34 complete collecting (collecting_batch.py:40)
+2022-12-23 19:35:57.981 [INFO] 'S12' USER SAMPLING (user_sampler.py:87)
+2022-12-23 19:44:34.885 [WARNING] 500 Server Error: Internal Server Error for url: https://lol.api.ggq.gg/application/v1/summoners/5fbfh5RqRu-cAGEgn0mLKqzuq-fub28jE_gN7uov1wVykBXZFZYGvDf6JUUuGmTndbVYqXKcRJRsJw (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://lol.api.ggq.gg/application/v1/summoners/5fbfh5RqRu-cAGEgn0mLKqzuq-fub28jE_gN7uov1wVykBXZFZYGvDf6JUUuGmTndbVYqXKcRJRsJw
+2022-12-23 20:46:02.495 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/RlqLaB03DlNL36azF4KZJ2XeprmQBEZMRKbaMHjTfVrwzyWZj4YEwqbrSJteAVaCnk_CV9D2Zhu4RA (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/RlqLaB03DlNL36azF4KZJ2XeprmQBEZMRKbaMHjTfVrwzyWZj4YEwqbrSJteAVaCnk_CV9D2Zhu4RA
+2022-12-23 20:54:15.900 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/jTnXENv_asE4X93s0_iJVWTqFdq5qhR0_YlV2E-mDZUp7G9HNudeXySF3PGAgnNMYuYYlCELkDdHGw (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/jTnXENv_asE4X93s0_iJVWTqFdq5qhR0_YlV2E-mDZUp7G9HNudeXySF3PGAgnNMYuYYlCELkDdHGw
+2022-12-23 21:07:38.788 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/HdeMOVitTBtMfpNzvjoof6izScO0-pfP_YIsro5h0Lx-VzHN02V1UTzpYCmQMq35_zHO7cVVcjaZ8Q (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/HdeMOVitTBtMfpNzvjoof6izScO0-pfP_YIsro5h0Lx-VzHN02V1UTzpYCmQMq35_zHO7cVVcjaZ8Q
+2022-12-23 21:16:41.099 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/qkK-C84I8U6ZVI_T8rcr6f9zgHyWgo_1eHSLnR212x9HMebPAcI8YN4425G767KJOfSMnhtnEfP_2w (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/qkK-C84I8U6ZVI_T8rcr6f9zgHyWgo_1eHSLnR212x9HMebPAcI8YN4425G767KJOfSMnhtnEfP_2w
+2022-12-23 21:36:28.298 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/Ifl5yfzLLnH0Av8NPWnBfMejrZvpLhn2GFH8lWnXCOMsDDm5fxc7Y93jheG4oTrOoY8WIo478lgsTw (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/Ifl5yfzLLnH0Av8NPWnBfMejrZvpLhn2GFH8lWnXCOMsDDm5fxc7Y93jheG4oTrOoY8WIo478lgsTw
+2022-12-23 21:36:28.392 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/pDEanMn0NTHdnBGtO3diEIbudPJVt0DV6V1bXMERp0zYfcEhRNrr_mAe-XRQ839uac1xL-baqAIZWg (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/pDEanMn0NTHdnBGtO3diEIbudPJVt0DV6V1bXMERp0zYfcEhRNrr_mAe-XRQ839uac1xL-baqAIZWg
+2022-12-23 21:36:48.798 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/-Wv0BqQG8ekBcF_ls09JW1I1kPGptTGSMfTdle_o8xVrriFvvmyduIlrtZ7dbQpj4-pE1f1xNHAoqg (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/-Wv0BqQG8ekBcF_ls09JW1I1kPGptTGSMfTdle_o8xVrriFvvmyduIlrtZ7dbQpj4-pE1f1xNHAoqg
+2022-12-23 21:43:25.940 [WARNING] 500 Server Error: Internal Server Error for url: https://lol.api.ggq.gg/application/v1/summoners/tmIU_sxx_YNKxQ3kp_XkQNYEzOyIhGgS86bXUiu3955bhsfs2o_iXm2TutdpKn0-R9_EbK7TKvwuOQ (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://lol.api.ggq.gg/application/v1/summoners/tmIU_sxx_YNKxQ3kp_XkQNYEzOyIhGgS86bXUiu3955bhsfs2o_iXm2TutdpKn0-R9_EbK7TKvwuOQ
+2022-12-23 21:43:25.978 [WARNING] 500 Server Error: Internal Server Error for url: https://lol.api.ggq.gg/application/v1/summoners/NSfqQurnTt0L9CTUrKF2tLogCXSZut08mGqVj08giKd_DiNg5yVnvWeBH9Jj-rxVTPgyErxv85VC4g (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://lol.api.ggq.gg/application/v1/summoners/NSfqQurnTt0L9CTUrKF2tLogCXSZut08mGqVj08giKd_DiNg5yVnvWeBH9Jj-rxVTPgyErxv85VC4g
+2022-12-23 21:43:25.983 [WARNING] 500 Server Error: Internal Server Error for url: https://lol.api.ggq.gg/application/v1/summoners/JKL4mZulT4TzNj3aoz0bXdR4nQ5VBscMquMmAE7TvWC0KO_CD37OEq2yA-v1r0sSmEC5J1D32UjfDg (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://lol.api.ggq.gg/application/v1/summoners/JKL4mZulT4TzNj3aoz0bXdR4nQ5VBscMquMmAE7TvWC0KO_CD37OEq2yA-v1r0sSmEC5J1D32UjfDg
+2022-12-23 22:19:56.375 [INFO] Tier: TierGroup.S12 complete collecting (collecting_batch.py:40)
+2022-12-23 22:19:56.377 [INFO] 'S34' USER SAMPLING (user_sampler.py:87)
+2022-12-23 23:15:04.469 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/4jH7oHmietdlGt6Uk7gPGCf2uEC6lW3FAi30xnxu_bUrJUjvF7glvjMEeM8houSZO87l9BJLrOOjGg (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/4jH7oHmietdlGt6Uk7gPGCf2uEC6lW3FAi30xnxu_bUrJUjvF7glvjMEeM8houSZO87l9BJLrOOjGg
+2022-12-23 23:15:52.668 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/-4o2kBCnAAhCTkRHVtKMd1RISx6QlpxK6uihnzbL-LMt_vqrh1MHGDWOegwynTqbFvXgs9nrEXHUxA (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/-4o2kBCnAAhCTkRHVtKMd1RISx6QlpxK6uihnzbL-LMt_vqrh1MHGDWOegwynTqbFvXgs9nrEXHUxA
+2022-12-23 23:27:46.613 [WARNING] 500 Server Error: Internal Server Error for url: https://lol.api.ggq.gg/application/v1/summoners/-l6KkiHhiYCNfHT1E9FK462xkOZluyqyglZ1E2V5S9fwgAzGE8xIwNWl4APxSULs_c5y9ij3ucDvAQ (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://lol.api.ggq.gg/application/v1/summoners/-l6KkiHhiYCNfHT1E9FK462xkOZluyqyglZ1E2V5S9fwgAzGE8xIwNWl4APxSULs_c5y9ij3ucDvAQ
+2022-12-24 00:34:26.841 [INFO] Tier: TierGroup.S34 complete collecting (collecting_batch.py:40)
+2022-12-24 00:34:26.843 [INFO] 'G12' USER SAMPLING (user_sampler.py:87)
+2022-12-24 01:15:35.519 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/rSZ6d4rlPDX2l9rkcvuKQmTJHeBXhFNr78wpMAEI98HdCedPZil6JqX01TSYpFQgLAW9eLlTH-19Kg (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/rSZ6d4rlPDX2l9rkcvuKQmTJHeBXhFNr78wpMAEI98HdCedPZil6JqX01TSYpFQgLAW9eLlTH-19Kg
+2022-12-24 01:20:37.021 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/MbZc6nZuWZbeFqQjTif9-Sdb6yuiS7jvTBASbXomPg9rUK3fEllngzQLlvSK-2PK7l4uPHEAFVR2ww (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/MbZc6nZuWZbeFqQjTif9-Sdb6yuiS7jvTBASbXomPg9rUK3fEllngzQLlvSK-2PK7l4uPHEAFVR2ww
+2022-12-24 01:24:33.434 [WARNING] 500 Server Error: Internal Server Error for url: https://lol.api.ggq.gg/application/v1/summoners/jJvLA1V79ss5gnVfMqJGWZD6LVACHHUdvFOr56wgsdB-x9qtSwXXgbVq0qFqjNDWsmNnidmAFgGMOA (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://lol.api.ggq.gg/application/v1/summoners/jJvLA1V79ss5gnVfMqJGWZD6LVACHHUdvFOr56wgsdB-x9qtSwXXgbVq0qFqjNDWsmNnidmAFgGMOA
+2022-12-24 01:45:29.039 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/JsBLd-pWgcjzpLGK2dx8MdyOz2Q79IFl4ctvlb_5MbSSQjzEPQmoT1J-ozvA884J6JhJ5i9jIvs1oA (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/JsBLd-pWgcjzpLGK2dx8MdyOz2Q79IFl4ctvlb_5MbSSQjzEPQmoT1J-ozvA884J6JhJ5i9jIvs1oA
+2022-12-24 02:37:05.900 [INFO] Tier: TierGroup.G12 complete collecting (collecting_batch.py:40)
+2022-12-24 02:37:05.903 [INFO] 'G34' USER SAMPLING (user_sampler.py:87)
+2022-12-24 02:38:10.436 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/gateway/v2/KR/lol/summoner/v4/summoners/TslVcOcz-dCspotGOReot4cWF50iuWH6L8V_GA3pngawRCc (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/gateway/v2/KR/lol/summoner/v4/summoners/TslVcOcz-dCspotGOReot4cWF50iuWH6L8V_GA3pngawRCc
+2022-12-24 02:48:15.304 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/pVyXYoYZnmmDtyyahTK88o61euaFHJEAT0nna8oonF7AA6wF7UKQXBeDslhtXqVLepdfnN0GIlELMA (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/pVyXYoYZnmmDtyyahTK88o61euaFHJEAT0nna8oonF7AA6wF7UKQXBeDslhtXqVLepdfnN0GIlELMA
+2022-12-24 03:00:40.146 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/sRTJVyjJnsW7FsRBhD5yCy8toHcKovMJrBBCu-0pKiwZDKtXKwrlyRJw7T8UFYLNpUW1YpsHmSlZsA (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/sRTJVyjJnsW7FsRBhD5yCy8toHcKovMJrBBCu-0pKiwZDKtXKwrlyRJw7T8UFYLNpUW1YpsHmSlZsA
+2022-12-24 03:01:03.431 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/OL-0oy6Avhc8MABTNUx3tErmihDtqA7_6tFDTfSNV2yku9_YB84iZK5DaQ09H8pVOuVBA11l3qjhNQ (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/OL-0oy6Avhc8MABTNUx3tErmihDtqA7_6tFDTfSNV2yku9_YB84iZK5DaQ09H8pVOuVBA11l3qjhNQ
+2022-12-24 03:21:22.644 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/LC1eLIakB8ecR-2jrbiUdvZAG8zlBOhRHNomS5T4niceGifMsZqOrskGlP_7lYxS1Nfe8WzkawU5IQ (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/LC1eLIakB8ecR-2jrbiUdvZAG8zlBOhRHNomS5T4niceGifMsZqOrskGlP_7lYxS1Nfe8WzkawU5IQ
+2022-12-24 03:28:46.661 [WARNING] 500 Server Error: Internal Server Error for url: https://lol.api.ggq.gg/application/v1/summoners/3yTkgDLJ8BRIN5Yqt5esn21aCMnZVXjgcihY4J5XA39DYfxuGYyCuYU47JBChYdjKHMM0HqIKjgRqQ (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://lol.api.ggq.gg/application/v1/summoners/3yTkgDLJ8BRIN5Yqt5esn21aCMnZVXjgcihY4J5XA39DYfxuGYyCuYU47JBChYdjKHMM0HqIKjgRqQ
+2022-12-24 03:55:39.468 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/WV0YbG1hfJhEnSSTI6ubNavUZzBFW01HjI--EQXo1wVYO3XMy9d1Vuoqi51NvZOi7qC6V0ok8xVh6Q (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/WV0YbG1hfJhEnSSTI6ubNavUZzBFW01HjI--EQXo1wVYO3XMy9d1Vuoqi51NvZOi7qC6V0ok8xVh6Q
+2022-12-24 04:03:23.721 [INFO] Tier: TierGroup.G34 complete collecting (collecting_batch.py:40)
+2022-12-24 04:03:23.723 [INFO] 'P12' USER SAMPLING (user_sampler.py:87)
+2022-12-24 04:14:04.404 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/5cDYiB-EEq_EzD9uCe1MecMrUIcZMkxBLPvFfjDxAblAhk0D8LY8sgjmxs5un1osouFQrDRN0bkwMg (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/5cDYiB-EEq_EzD9uCe1MecMrUIcZMkxBLPvFfjDxAblAhk0D8LY8sgjmxs5un1osouFQrDRN0bkwMg
+2022-12-24 04:17:45.432 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/70IKWLILodR5To77xa9Sv9ae5zDOQpdGastSefTIUb5GiYmtNTdWB8u_C181sBzeUqR2evNQtrLhdw (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/70IKWLILodR5To77xa9Sv9ae5zDOQpdGastSefTIUb5GiYmtNTdWB8u_C181sBzeUqR2evNQtrLhdw
+2022-12-24 04:19:25.332 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/2SAdKv_O62yuezQnmxcIeFasru3NKdnScBAurWJHV_gHAFcCsWSEtICIQjwabY2leEgQ-8rhGEKHdw (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/2SAdKv_O62yuezQnmxcIeFasru3NKdnScBAurWJHV_gHAFcCsWSEtICIQjwabY2leEgQ-8rhGEKHdw
+2022-12-24 04:28:26.954 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/2C_Ph8MWub6ci0bHKkfx5GXWeTXRSDI851Ct4bP3A4-invFbPFXfzjkVmbOtX0tp-069aC9rQVXg1A (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/2C_Ph8MWub6ci0bHKkfx5GXWeTXRSDI851Ct4bP3A4-invFbPFXfzjkVmbOtX0tp-069aC9rQVXg1A
+2022-12-24 05:35:48.472 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/Aueb94-aJwZ_JTfESs6R-GBo2PSHG7AudK3LEbonWTaCOhkZzYgz8MftvJDKdf66vkuSA1uJfQoyIA (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/Aueb94-aJwZ_JTfESs6R-GBo2PSHG7AudK3LEbonWTaCOhkZzYgz8MftvJDKdf66vkuSA1uJfQoyIA
+2022-12-24 06:06:16.803 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/-3BoeX1aMlQ0SYQ90TRXTQyMAxGurgnSfdQx01j54kQDH1SSGacTkfdSgLAkLW_-Nw5252zSVyaEvg (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/-3BoeX1aMlQ0SYQ90TRXTQyMAxGurgnSfdQx01j54kQDH1SSGacTkfdSgLAkLW_-Nw5252zSVyaEvg
+2022-12-24 06:35:24.124 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/4AkMdh4WecQ-eUONt2FgMH1-fdB6QITFKz6Gbhmaa5QYXevs9oWYIbMragSDgxAixwUuZQJcNZS7FQ (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/4AkMdh4WecQ-eUONt2FgMH1-fdB6QITFKz6Gbhmaa5QYXevs9oWYIbMragSDgxAixwUuZQJcNZS7FQ
+2022-12-24 07:06:44.699 [INFO] Tier: TierGroup.P12 complete collecting (collecting_batch.py:40)
+2022-12-24 07:06:44.702 [INFO] 'P34' USER SAMPLING (user_sampler.py:87)
+2022-12-24 07:43:58.048 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/frzQABjsH8r_Qp500-Z9O3v6KHqGO3qkvoFjsxd5MetZW_p71Q2DG1DQTrmiFjRn5J54rdYSmQoV2Q (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/frzQABjsH8r_Qp500-Z9O3v6KHqGO3qkvoFjsxd5MetZW_p71Q2DG1DQTrmiFjRn5J54rdYSmQoV2Q
+2022-12-24 07:58:26.665 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/FOQGBx6pNnZ6csHjyX7nGAivocYF43Il4c8LRtwJKn8Y_0vpLpG8p_hNQc0yoAhr5vhMTr4C8bp9Rw (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/FOQGBx6pNnZ6csHjyX7nGAivocYF43Il4c8LRtwJKn8Y_0vpLpG8p_hNQc0yoAhr5vhMTr4C8bp9Rw
+2022-12-24 08:35:28.128 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/8sHtz8IA02AXYTqzeS0gez3kULDQA1wU18u3FfU2kmqjymyTlMU5eApa_F24IAqQyFJa3MrSAvOlBg (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/8sHtz8IA02AXYTqzeS0gez3kULDQA1wU18u3FfU2kmqjymyTlMU5eApa_F24IAqQyFJa3MrSAvOlBg
+2022-12-24 08:43:39.329 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/0ZMDVyiJ8dZ7F-0R536YjmYDlsqWZLdep5NtdlAq48DFwosZkIj0SiNt-s6CDnte90dgj6WF-Wg7hA (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/0ZMDVyiJ8dZ7F-0R536YjmYDlsqWZLdep5NtdlAq48DFwosZkIj0SiNt-s6CDnte90dgj6WF-Wg7hA
+2022-12-24 08:44:31.347 [INFO] Tier: TierGroup.P34 complete collecting (collecting_batch.py:40)
+2022-12-24 08:44:31.349 [INFO] 'D12' USER SAMPLING (user_sampler.py:87)
+2022-12-24 09:25:35.646 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/gateway/v2/lol/match/v5/matches/KR_6268454773 (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/gateway/v2/lol/match/v5/matches/KR_6268454773
+2022-12-24 09:43:50.555 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/07dlg3D4Adg_axXrZG1l7uGC1OFZ3kooho13iWE-6QYR6oT7Y28xcUS6BslXs-1eMTQQM_wCuk95RQ (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/07dlg3D4Adg_axXrZG1l7uGC1OFZ3kooho13iWE-6QYR6oT7Y28xcUS6BslXs-1eMTQQM_wCuk95RQ
+2022-12-24 09:51:01.900 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/gateway/v2/lol/match/v5/matches/KR_6268178570 (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/gateway/v2/lol/match/v5/matches/KR_6268178570
+2022-12-24 09:58:51.475 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/wEyDh-xBAL63z5w3kmGcYpaPEyza_Pi_k_-4P_rN5U4ob1i-opRML0W-kFSmigZeCf0Wk6F0E5X6jg (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/wEyDh-xBAL63z5w3kmGcYpaPEyza_Pi_k_-4P_rN5U4ob1i-opRML0W-kFSmigZeCf0Wk6F0E5X6jg
+2022-12-24 10:02:58.587 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/gateway/v2/lol/match/v5/matches/KR_6267307923 (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/gateway/v2/lol/match/v5/matches/KR_6267307923
+2022-12-24 10:23:52.832 [INFO] Tier: TierGroup.D12 complete collecting (collecting_batch.py:40)
+2022-12-24 10:23:52.834 [INFO] 'D34' USER SAMPLING (user_sampler.py:87)
+2022-12-24 10:38:00.403 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/dA8Qwj5WGeLrcM_qpdFPc_7ICMhAF4v_09zcTkaZpHaxZc-Q4J9zYoaFRdjudIaAtmRownPw4m-aYQ (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/dA8Qwj5WGeLrcM_qpdFPc_7ICMhAF4v_09zcTkaZpHaxZc-Q4J9zYoaFRdjudIaAtmRownPw4m-aYQ
+2022-12-24 10:40:16.740 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/gateway/v2/lol/match/v5/matches/KR_6272234016 (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/gateway/v2/lol/match/v5/matches/KR_6272234016
+2022-12-24 11:21:49.737 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/AnmW-4p_--eL8xWGOHKcEgzSovkHVMdWNaVHOx4l_TUdCgL3GAH7ZpgIMORPX9djtVgB3-FO-oMylQ (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/AnmW-4p_--eL8xWGOHKcEgzSovkHVMdWNaVHOx4l_TUdCgL3GAH7ZpgIMORPX9djtVgB3-FO-oMylQ
+2022-12-24 11:24:49.596 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/9zZOYuG_c0bRj0_k47VhkEXa4-6u4rAafQ41_XbWAhgruEm_VVOOIUeiI5f2XcNmrEsG2f37tsTpXQ (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/9zZOYuG_c0bRj0_k47VhkEXa4-6u4rAafQ41_XbWAhgruEm_VVOOIUeiI5f2XcNmrEsG2f37tsTpXQ
+2022-12-24 11:25:18.236 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/gDLG0s7853omS2qaXU9HN81Jp4xz9iE1vStfcSZ5nDe3o4QAvPP2MP2-tsnLJESTP4Cj8GuBrNwMhA (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/gDLG0s7853omS2qaXU9HN81Jp4xz9iE1vStfcSZ5nDe3o4QAvPP2MP2-tsnLJESTP4Cj8GuBrNwMhA
+2022-12-24 11:56:50.836 [INFO] Tier: TierGroup.D34 complete collecting (collecting_batch.py:40)
+2022-12-24 11:56:50.838 [INFO] 'M1' USER SAMPLING (user_sampler.py:87)
+2022-12-24 12:34:39.207 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/13aQXgDW4J9OKxCjUUiyZvu-2Z_JYWmsMCQhvaUEhTm5OUDlDGPCvgmc1iM5ce_0Qo5g83VxZBHDMw/match-ids?queue=420&start=0&count=50&startTime=1670943600.0&endTime=1672930800.0 (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/13aQXgDW4J9OKxCjUUiyZvu-2Z_JYWmsMCQhvaUEhTm5OUDlDGPCvgmc1iM5ce_0Qo5g83VxZBHDMw/match-ids?queue=420&start=0&count=50&startTime=1670943600.0&endTime=1672930800.0
+2022-12-24 12:43:39.314 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/LNFbCXRCFmPl7wbQGZ7k5vD8RzxOPCRKRvFfecfHuY7vYy0Keb8A5vajY15asBN6RKhSSjlRHxCMfg (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/application/v1/summoners/LNFbCXRCFmPl7wbQGZ7k5vD8RzxOPCRKRvFfecfHuY7vYy0Keb8A5vajY15asBN6RKhSSjlRHxCMfg
+2022-12-24 12:46:50.394 [WARNING] 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/gateway/v2/lol/match/v5/matches/KR_6269017720 (api_client.py:57)
+Traceback (most recent call last):
+  File "c:\Users\User\PythonProject\ai-python-coach-gathering-server-1\api_client\api_client.py", line 46, in _http_request
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://lol.api.ggq.gg/gateway/v2/lol/match/v5/matches/KR_6269017720
+2022-12-24 13:11:20.065 [INFO] Tier: TierGroup.M1 complete collecting (collecting_batch.py:40)
+2022-12-24 13:11:20.067 [INFO] User input is initialized from C:\Users\User\PythonProject\ai-python-coach-gathering-server-1\save_files\12.23\A_user_list.txt (user_sampler.py:67)
+2022-12-24 13:11:20.067 [INFO] Tier: TierGroup.A complete collecting (collecting_batch.py:44)
+2022-12-24 13:11:20.068 [INFO] Tier: TierGroup.B34 - Starting to post request to download server (collecting_batch.py:51)
+2022-12-24 13:11:23.364 [INFO] Tier: TierGroup.B34 - Complete to post request to download server (collecting_batch.py:63)
+2022-12-24 13:11:23.364 [INFO] current download queue: 195 (collecting_batch.py:67)
+2022-12-24 13:11:23.365 [INFO] Tier: TierGroup.S12 - Starting to post request to download server (collecting_batch.py:51)
+2022-12-24 13:11:31.004 [INFO] Tier: TierGroup.S12 - Complete to post request to download server (collecting_batch.py:63)
+2022-12-24 13:11:31.005 [INFO] current download queue: 672 (collecting_batch.py:67)
+2022-12-24 13:11:31.005 [INFO] Tier: TierGroup.S34 - Starting to post request to download server (collecting_batch.py:51)
+2022-12-24 13:11:38.713 [INFO] Tier: TierGroup.S34 - Complete to post request to download server (collecting_batch.py:63)
+2022-12-24 13:11:38.713 [INFO] current download queue: 1149 (collecting_batch.py:67)
+2022-12-24 13:11:38.714 [INFO] Tier: TierGroup.G12 - Starting to post request to download server (collecting_batch.py:51)
+2022-12-24 13:11:46.911 [INFO] Tier: TierGroup.G12 - Complete to post request to download server (collecting_batch.py:63)
+2022-12-24 13:11:46.911 [INFO] current download queue: 1626 (collecting_batch.py:67)
+2022-12-24 13:11:46.912 [INFO] Tier: TierGroup.G34 - Starting to post request to download server (collecting_batch.py:51)
+2022-12-24 13:11:54.636 [INFO] Tier: TierGroup.G34 - Complete to post request to download server (collecting_batch.py:63)
+2022-12-24 13:11:54.636 [INFO] current download queue: 2103 (collecting_batch.py:67)
+2022-12-24 13:11:54.636 [INFO] Tier: TierGroup.P12 - Starting to post request to download server (collecting_batch.py:51)
+2022-12-24 13:12:02.220 [INFO] Tier: TierGroup.P12 - Complete to post request to download server (collecting_batch.py:63)
+2022-12-24 13:12:02.220 [INFO] current download queue: 2578 (collecting_batch.py:67)
+2022-12-24 13:12:02.221 [INFO] Tier: TierGroup.P34 - Starting to post request to download server (collecting_batch.py:51)
+2022-12-24 13:12:10.586 [INFO] Tier: TierGroup.P34 - Complete to post request to download server (collecting_batch.py:63)
+2022-12-24 13:12:10.587 [INFO] current download queue: 3055 (collecting_batch.py:67)
+2022-12-24 13:12:10.587 [INFO] Tier: TierGroup.D12 - Starting to post request to download server (collecting_batch.py:51)
+2022-12-24 13:12:18.730 [INFO] Tier: TierGroup.D12 - Complete to post request to download server (collecting_batch.py:63)
+2022-12-24 13:12:18.730 [INFO] current download queue: 3523 (collecting_batch.py:67)
+2022-12-24 13:12:18.730 [INFO] Tier: TierGroup.D34 - Starting to post request to download server (collecting_batch.py:51)
+2022-12-24 13:12:27.220 [INFO] Tier: TierGroup.D34 - Complete to post request to download server (collecting_batch.py:63)
+2022-12-24 13:12:27.220 [INFO] current download queue: 3999 (collecting_batch.py:67)
+2022-12-24 13:12:27.220 [INFO] Tier: TierGroup.M1 - Starting to post request to download server (collecting_batch.py:51)
+2022-12-24 13:12:35.112 [INFO] Tier: TierGroup.M1 - Complete to post request to download server (collecting_batch.py:63)
+2022-12-24 13:12:35.112 [INFO] current download queue: 4432 (collecting_batch.py:67)
+2022-12-24 13:12:35.112 [INFO] Tier: TierGroup.A - Starting to post request to download server (collecting_batch.py:51)

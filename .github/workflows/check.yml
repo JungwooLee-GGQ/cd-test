@@ -1,0 +1,20 @@
+name: check python
+on: [push]
+
+jobs:
+  check:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set up python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          check-latest: true
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v3
+      - name: Apply black
+        uses: psf/black@stable
+      - name: Run unit test
+        run: python -m unittest

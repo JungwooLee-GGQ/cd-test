@@ -1,0 +1,11 @@
+## GGQ Company Inc. CONFIDENTIAL
+
+### Unpublished copyright 2022 GGQ Company Inc. All rights reserved.
+
+**Notice**: All information contained herein is, and remains the property of AHAM Co., Ltd(hereafter referred to as "COMPANY"). The intellectual and technical concepts contained herein are proprietary to COMPANY and may be covered by patents, patents in process, and are protected by trade secret or copyright law. Dissemination of this information or reproduction of this material is strictly forbidden unless prior written permission is obtained from COMPANY. Access to the source code contained herein is hereby forbidden to anyone except current COMPANY employees, managers or contractors who have executed Confidentiality and Non-disclosure agreements explicitly covering such access.
+
+The copyright notice above does not evidence any actual or intended publication or disclosure of this source code, which includes information that is confidential and/or proprietary, and is a trade secret, of COMPANY. **ANY REPRODUCTION, MODIFICATION, DISTRIBUTION, PUBLIC PERFORMANCE, OR PUBLIC DISPLAY OF OR THROUGH USE OF THIS SOURCE CODE WITHOUT THE EXPRESS WRITTEN CONSENT OF COMPANY IS STRICTLY PROHIBITED, AND IN VIOLATION OF APPLICABLE LAWS AND INTERNATIONAL TREATIES. THE RECEIPT OR POSSESSION OF THIS SOURCE CODE AND/OR RELATED INFORMATION DOES NOT CONVEY OR IMPLY ANY RIGHTS TO REPRODUCE, DISCLOSE OR DISTRIBUTE ITS CONTENTS, OR TO MANUFACTURE, USE, OR SELL ANYTHING THAT IT MAY DESCRIBE, IN WHOLE OR IN PART.**
+
+**경고**: 이 저장소에 포함된 모든 정보는 AHAM Co., Ltd.(이하 "회사"라고 합니다.)의 자산입니다. 여기에 포함된 모든 지식재산 및 기술적 사상은 회사의 소유이며, 등록되거나 출원 중인 특허의 적용을 받을 수 있으며, 「부정경쟁방지법」 및 「저작권법」에 의해 보호되고 있습니다. 사전에 회사로부터 서면 허가를 받지 않는 한 이 자료의 복제 및 자료에 포함된 모든 정보의 배포를 엄격히 금지합니다. 기밀 협약 및 비밀유지계약서에 서명한 회사 임직원 또는 계약자를 제외한 어느 누구도 여기에 포함된 소스코드에 접근하는 것은 금지됩니다.
+
+위의 저작권 표시는 회사의 기밀 및 독점 정보이면서 영업 비밀인 이 소스코드가 출판 또는 공개가 되었거나 출판과 공개를 목적으로 하고 있다는 증거가 되지 않습니다. **회사의 명시적인 서면 동의 없이 이 소스코드를 무단으로 복제, 수정, 배포, 공연한 실시 또는 공개하는 것은 엄격히 금지되며, 이를 위반한 때에는 관련 법률 및 국제 조약에 따라 처벌받을 수 있습니다. 이 소스 코드 또는 관련 정보를 양도받거나 소유한다고 해서 전부 또는 부분적으로든 그 내용을 복제, 공개 또는 배포할 수 있는 권리, 또는 이 소스코드에서 비롯된 것을 제조, 실시 또는 판매할 수 있는 권리를 가지게 된다는 것을 뜻하지 않습니다.**
