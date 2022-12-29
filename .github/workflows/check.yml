@@ -1,12 +1,14 @@
-name: check python
+name: python cicd
 on: [push]
 
 jobs:
   check:
-    runs-on: self-hosted
+    runs-on: windows-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          ref: develop
       - name: Set up python
         uses: actions/setup-python@v4
         with:
@@ -18,3 +20,15 @@ jobs:
         uses: psf/black@stable
       - name: Run unit test
         run: python -m unittest
+  deploy:
+    runs-on: windows-selfhosted
+    steps:
+      - name: Run venv
+        run: python -m venv venv
+      - name: Set venv
+        run: venv\Scripts\activate
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v3
+      - name: Run Server
+        run: |
+          python -m uvicorn app.main:app --reload
