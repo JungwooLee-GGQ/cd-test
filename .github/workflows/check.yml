@@ -24,7 +24,7 @@ jobs:
             git stash/
             git checkout develop/
             git pull/
-            ipconfig/
+            ipconfig./
           host: ${{ matrix.server }}
           username: ${{ matrix.user }}
           privateKey: ${{ secrets.KEY}}
