@@ -21,7 +21,6 @@ jobs:
         with:
           host: ${{ matrix.server }}
           username: ${{ matrix.user }}
-          passphrase: ${{ matrix.pwd }}
           privateKey: ${{ secrets.KEY}}
           
       
