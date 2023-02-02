@@ -23,6 +23,6 @@ jobs:
           host: ${{ matrix.server }}
           username: ${{ matrix.user }}
           passphrase: ${{ matrix.pwd }}
-          port: ${{ matrix.PORT }}
+          privateKey: ${{ secrets.KEY}}
           
       
