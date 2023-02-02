@@ -24,12 +24,6 @@ jobs:
           username: ${{ matrix.user }}
           password: ${{ matrix.pwd }}
           port: ${{ matrix.PORT }}
-          script: whoami
-      - name: ssh connect to server
-        run: |
-          ssh ${{ matrix.user }}@${{ matrix.server }}
-          ${{ matrix.pwd }}
-          echo "success"
-      - name: enter password
-        run: |
-          echo "im here"
+          script: |
+            ls
+      
