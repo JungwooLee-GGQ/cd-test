@@ -1,34 +1,24 @@
 name: python cicd
-on: [push]
+on:
+  push:
+    branches:
+      - develop
 
 jobs:
-  check:
-    runs-on: ubuntu-latest
+  deployment:
+    runs-on: self-hosted
+    strategy:
+      matrix:
+        include:
+          - server: "121.133.17.77"
+            user : "admin"
+            pwd : "qwe123"
+        
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          ref: develop
-      - name: Set up python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
-          check-latest: true
-      - name: Install Python dependencies
-        uses: py-actions/py-dependency-install@v3
-      - name: Apply black
-        uses: psf/black@stable
-      - name: Run unit test
-        run: python -m unittest
-  deploy:
-    runs-on: windows-selfhosted
-    steps:
-      - name: Run venv
-        run: python -m venv venv
-      - name: Set venv
-        run: venv\Scripts\activate
-      - name: Install Python dependencies
-        uses: py-actions/py-dependency-install@v3
-      - name: Run Server
+      - name: ssh connect to server
+        continue-on-error: true
         run: |
-          python -m uvicorn app.main:app --reload
+          lsof -t -i :22 | xargs kill -9
+          ssh  ${{ matrix.user }}@${{ matrix.server }}
+          echo "success"
+      
