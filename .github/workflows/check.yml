@@ -20,7 +20,12 @@ jobs:
         uses: garygrossgarten/github-action-ssh@release
         with:
           command: |
-            cd
+            cd Documents\\GitHub\\ai-python-coach-extraction-server/
+            git stash/
+            git checkout develop/
+            git pull/
+            venv\Scripts\activate/
+            uvicorn app.main:app --host=${{ matrix.server }} --port=8000
           host: ${{ matrix.server }}
           username: ${{ matrix.user }}
           privateKey: ${{ secrets.KEY}}
