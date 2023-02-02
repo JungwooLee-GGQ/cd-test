@@ -17,11 +17,12 @@ jobs:
         
     steps:
       - name: ls -a via ssh
-        uses: appleboy/ssh-action@v0.1.7
+        uses: garygrossgarten/github-action-ssh@release
         with:
+          command: ls
           host: ${{ matrix.server }}
           username: ${{ matrix.user }}
-          password: ${{ matrix.pwd }}
+          passphrase: ${{ matrix.pwd }}
           port: ${{ matrix.PORT }}
           
       
