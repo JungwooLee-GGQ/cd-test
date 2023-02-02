@@ -16,8 +16,10 @@ jobs:
         
     steps:
       - name: ssh connect to server
-        shell: pwsh
         run: |
           ssh ${{ matrix.user }}@${{ matrix.server }}
           echo "success"
-      
+      - name: enter password
+        run: |
+          ${{ matrix.pwd }}
+          echo "success input pwd"
