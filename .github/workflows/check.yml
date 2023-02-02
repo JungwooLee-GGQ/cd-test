@@ -13,8 +13,18 @@ jobs:
           - server: "121.133.17.77"
             user : "admin"
             pwd : "qwer123"
+            port : "22"
         
     steps:
+      - name: ls -a via ssh
+        uses: garygrossgarten/github-action-ssh@release
+        with:
+          command: ls -a
+          host: ${{ matrix.server }}
+          username: ${{ matrix.user }}
+          password: ${{ matrix.pwd }}
+          port: ${{ matrix.PORT }}
+          script: whoami
       - name: ssh connect to server
         run: |
           ssh ${{ matrix.user }}@${{ matrix.server }}
