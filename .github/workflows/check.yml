@@ -17,7 +17,7 @@ jobs:
         
     steps:
       - name: ls -a via ssh
-        uses: garygrossgarten/github-action-ssh@release
+        uses: garygrossgarten/github-action-ssh@0.7.0
         with:
           command: |
             cd Documents\\GitHub\\ai-python-coach-extraction-server/
