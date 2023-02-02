@@ -22,9 +22,9 @@ jobs:
           host: ${{ matrix.server }}
           username: ${{ matrix.user }}
           privateKey: ${{ secrets.KEY}}
-          command: |
-            echo "Testing"/
-            echo "DD"
+          command: | 
+            echo "Testing"
+            echo "DD"/
       
           
       
