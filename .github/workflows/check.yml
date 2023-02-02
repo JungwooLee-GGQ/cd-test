@@ -21,10 +21,7 @@ jobs:
         with:
           command: |
             cd Documents\\GitHub\\ai-python-coach-extraction-server/
-            git stash/
-            git checkout develop/
-            git pull/
-            ipconfig./
+            ipconfig
           host: ${{ matrix.server }}
           username: ${{ matrix.user }}
           privateKey: ${{ secrets.KEY}}
