@@ -19,15 +19,11 @@ jobs:
       - name: ls -a via ssh
         uses: garygrossgarten/github-action-ssh@0.7.0
         with:
-          command: |
-            cd Documents\\GitHub\\ai-python-coach-extraction-server/
-            git stash/
-            git checkout develop/
-            git pull/
-            venv\Scripts\activate/
-            uvicorn app.main:app --host=${{ matrix.server }} --port=8000
           host: ${{ matrix.server }}
           username: ${{ matrix.user }}
           privateKey: ${{ secrets.KEY}}
+          command: |
+            cd/
+            ipconfig
           
       
