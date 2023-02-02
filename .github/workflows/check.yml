@@ -19,7 +19,7 @@ jobs:
       - name: ls -a via ssh
         uses: garygrossgarten/github-action-ssh@release
         with:
-          command: |
+          script: |
             cd Documents\\GitHub\\ai-python-coach-extraction-server
             git stash
             git checkout develop
