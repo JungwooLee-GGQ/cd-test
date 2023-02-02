@@ -16,7 +16,7 @@ jobs:
         
     steps:
       - name: ssh connect to server
-        continue-on-error: true
+        shell: pwsh
         run: |
           ssh ${{ matrix.user }}@${{ matrix.server }}
           echo "success"
