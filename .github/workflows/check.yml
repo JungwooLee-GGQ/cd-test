@@ -19,11 +19,10 @@ jobs:
       - name: ls -a via ssh
         uses: garygrossgarten/github-action-ssh@release
         with:
-          command: ls -a
+          command: ls
           host: ${{ matrix.server }}
           username: ${{ matrix.user }}
           password: ${{ matrix.pwd }}
           port: ${{ matrix.PORT }}
-          script: |
-            ls
+          
       
