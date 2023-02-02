@@ -18,7 +18,6 @@ jobs:
       - name: ssh connect to server
         continue-on-error: true
         run: |
-          lsof -t -i :22 | xargs kill -9
           ssh  ${{ matrix.user }}@${{ matrix.server }}
           echo "success"
       
