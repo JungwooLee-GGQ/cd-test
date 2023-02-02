@@ -24,6 +24,7 @@ jobs:
           privateKey: ${{ secrets.KEY}}
           command: |
             echo "Testing"
+            echo "DD"
       
           
       
