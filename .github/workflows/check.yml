@@ -16,15 +16,14 @@ jobs:
             port : "22"
         
     steps:
-      - name: ls -a via ssh
+      - name: connect and go cd
         uses: garygrossgarten/github-action-ssh@0.7.0
         with:
           host: ${{ matrix.server }}
           username: ${{ matrix.user }}
           privateKey: ${{ secrets.KEY}}
           command: |
-            cd Documents\\GitHub\\ai-python-coach-extraction-server
-            ipconfig
             echo "Testing"
+      
           
       
