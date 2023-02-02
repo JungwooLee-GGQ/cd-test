@@ -20,8 +20,8 @@ jobs:
         uses: garygrossgarten/github-action-ssh@release
         with:
           command: |
-            cd Documents\\GitHub\\ai-python-coach-extraction-server/
             ipconfig
+            
           host: ${{ matrix.server }}
           username: ${{ matrix.user }}
           privateKey: ${{ secrets.KEY}}
