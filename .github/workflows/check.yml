@@ -23,7 +23,7 @@ jobs:
           username: ${{ matrix.user }}
           privateKey: ${{ secrets.KEY}}
           command: |
-            echo "Testing"
+            echo "Testing"\
             echo "DD"
       
           
