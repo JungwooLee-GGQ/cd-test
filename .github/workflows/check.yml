@@ -19,6 +19,7 @@ jobs:
         run: |
           ssh ${{ matrix.user }}@${{ matrix.server }}
           echo "success"
+        shell: pwsh
       - name: enter password
         run: |
           ${{ matrix.pwd }}
