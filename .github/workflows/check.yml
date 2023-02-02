@@ -25,5 +25,6 @@ jobs:
           command: |
             cd Documents\\GitHub\\ai-python-coach-extraction-server
             ipconfig
+            echo "Testing"
           
       
