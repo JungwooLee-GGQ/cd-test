@@ -19,6 +19,7 @@ jobs:
       - name: ls -a via ssh
         uses: garygrossgarten/github-action-ssh@release
         with:
+          command: ipconfig
           host: ${{ matrix.server }}
           username: ${{ matrix.user }}
           privateKey: ${{ secrets.KEY}}
