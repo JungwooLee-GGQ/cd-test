@@ -19,7 +19,11 @@ jobs:
       - name: ls -a via ssh
         uses: garygrossgarten/github-action-ssh@release
         with:
-          command: ipconfig
+          command: |
+            cd Documents\\GitHub\\ai-python-coach-extraction-server
+            git stash
+            git checkout develop
+            git pull
           host: ${{ matrix.server }}
           username: ${{ matrix.user }}
           privateKey: ${{ secrets.KEY}}
