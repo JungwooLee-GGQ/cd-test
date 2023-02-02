@@ -12,12 +12,12 @@ jobs:
         include:
           - server: "121.133.17.77"
             user : "admin"
-            pwd : "qwe123"
+            pwd : "qwer123"
         
     steps:
       - name: ssh connect to server
         continue-on-error: true
         run: |
-          ssh  ${{ matrix.user }}@${{ matrix.server }}
+          ssh ${{ matrix.user }}@${{ matrix.server }}
           echo "success"
       
