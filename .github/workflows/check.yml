@@ -17,8 +17,8 @@ jobs:
         
     steps:
       - name: connect and go cd
-        uses: JungwooLee-GGQ/github-action-ssh@feature-command
-        #uses: garygrossgarten/github-action-ssh@0.7.0
+        #uses: JungwooLee-GGQ/github-action-ssh@feature-command
+        uses: garygrossgarten/github-action-ssh@release
         with:
           host: ${{ matrix.server }}
           username: ${{ matrix.user }}
