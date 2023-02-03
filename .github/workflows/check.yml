@@ -24,9 +24,8 @@ jobs:
           username: ${{ matrix.user }}
           privateKey: ${{ secrets.KEY}}
           command: | 
-            echo "Testing"/n
-            echo "DD"/n
             ipconfig
+            cd
 
       
           
