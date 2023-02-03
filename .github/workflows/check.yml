@@ -25,6 +25,10 @@ jobs:
           command: | 
             echo "Testing"/n
             echo "DD"/
+      - name: echo "cmd"
+        run: |
+          echo "cmd"
+          ipconfig
       
           
       
