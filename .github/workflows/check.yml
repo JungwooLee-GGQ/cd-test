@@ -24,8 +24,7 @@ jobs:
           username: ${{ matrix.user }}
           privateKey: ${{ secrets.KEY}}
           command: | 
-            cd/n
-            ipconfig
+            cd/nipconfig
             
       
           
