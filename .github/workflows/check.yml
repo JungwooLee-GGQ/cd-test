@@ -25,7 +25,7 @@ jobs:
           privateKey: ${{ secrets.KEY}}
           command: | 
             cd/n
-            ipconfig/n
+            ipconfig
       
           
       
