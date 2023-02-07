@@ -26,10 +26,11 @@ jobs:
           ssh_user: ${{ matrix.user }}
           ssh_key: ${{ secrets.KEY}}
           ssh_commands: |
-            cd Documents
+            cd Documents\\GitHub\\ai-python-coach-extraction-server
+            git stash
+            git checkout develop
+            git pull
             cd
-            echo "Hello World"
-            
             
       
           
