@@ -24,7 +24,7 @@ jobs:
           ipaddr: ${{ matrix.server }}
           username: ${{ matrix.user }}
           password: ${{ secrets.KEY}}
-          command: | 
+          commands: | 
             cd Documents
             cd
             
