@@ -31,7 +31,6 @@ jobs:
             git checkout develop
             git pull origin develop
             
-            
       - name: Execute directly with alias provide in first action
         uses: mnival/ssh-remote-commands-action@v0.0.1
         with:
