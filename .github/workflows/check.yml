@@ -24,7 +24,8 @@ jobs:
           username: ${{ matrix.user }}
           privateKey: ${{ secrets.KEY}}
           command: | 
-            cd Documents/ncd
+            cd Documents
+            cd
             
             
       
