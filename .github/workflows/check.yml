@@ -24,7 +24,7 @@ jobs:
           username: ${{ matrix.user }}
           privateKey: ${{ secrets.KEY}}
           command: | 
-            ipconfig/ncd \Documents/ncd
+            ipconfig/ncd /Documents/ncd
             
             
       
