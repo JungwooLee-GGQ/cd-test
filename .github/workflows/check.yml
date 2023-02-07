@@ -28,6 +28,7 @@ jobs:
           ssh_commands: |
             cd Documents\\GitHub\\ai-python-coach-extraction-server
             git checkout develop
+            git pull
             
       - name: Execute directly with alias provide in first action
         uses: mnival/ssh-remote-commands-action@v0.0.1
