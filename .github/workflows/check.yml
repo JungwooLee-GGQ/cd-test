@@ -18,15 +18,14 @@ jobs:
     steps:
       - name: connect and go cd
         #uses: JungwooLee-GGQ/github-action-ssh@feature-command
-        uses: JimCronqvist/action-ssh@master
+        uses: Sithi5/remote-ssh-commands-action@main
         #uses: garygrossgarten/github-action-ssh@release
         with:
-          hosts: ${{ matrix.user }}@${{ matrix.server }}
-          #username: ${{ matrix.user }}
-          privateKey: ${{ secrets.KEY}}
-          command: | 
-            cd Documents
-            cd
+          SSH_HOST: ${{ matrix.user }}@${{ matrix.server }}
+          SSH_USER: ${{ matrix.user }}
+          SSH_PRIVATE_KEY: ${{ secrets.KEY}}
+          SSH_PORT: 22
+          SSH_REMOTE_COMMANDS: cd Documents;cd;echo "Hello World"
             
             
       
