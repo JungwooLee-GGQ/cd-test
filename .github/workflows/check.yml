@@ -17,14 +17,16 @@ jobs:
         
     steps:
       - name: connect and go cd
-        uses: JungwooLee-GGQ/github-action-ssh@feature-command
+        #uses: JungwooLee-GGQ/github-action-ssh@feature-command
+        uses: fifsky/ssh-action@master
         #uses: garygrossgarten/github-action-ssh@release
         with:
           host: ${{ matrix.server }}
-          username: ${{ matrix.user }}
-          privateKey: ${{ secrets.KEY}}
+          user: ${{ matrix.user }}
+          key: ${{ secrets.KEY}}
           command: | 
-            cd Documents\/ncd
+            cd /Documents
+            cd
             
             
       
