@@ -27,8 +27,8 @@ jobs:
           ssh_user: ${{ matrix.user }}
           ssh_key: ${{ secrets.KEY}}
           ssh_commands: |
-            git stash
             cd Documents\\GitHub\\cd-test
+            git stash
             git checkout develop
             
             
