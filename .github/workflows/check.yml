@@ -24,7 +24,7 @@ jobs:
           hosts: ${{ matrix.user }}@${{ matrix.server }}
           #username: ${{ matrix.user }}
           privateKey: ${{ secrets.KEY}}
-          commands: | 
+          command: | 
             cd Documents
             cd
             
