@@ -29,7 +29,7 @@ jobs:
             git stash
             cd Documents\\GitHub\\cd-test
             git checkout develop
-            git pull
+            ssh -T git@github.com
             
       - name: Execute directly with alias provide in first action
         uses: mnival/ssh-remote-commands-action@v0.0.1
