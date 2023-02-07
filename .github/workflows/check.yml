@@ -19,18 +19,18 @@ jobs:
       - name: connect and go cd
         continue-on-error: true
         #uses: JungwooLee-GGQ/github-action-ssh@feature-command
-        uses: mnival/ssh-remote-commands-action@v0.0.1
+        uses: appleboy/ssh-action@v0.1.7
         #uses: garygrossgarten/github-action-ssh@release
         id: ssh
         with:
-          ssh_host: ${{ matrix.server }}
-          ssh_user: ${{ matrix.user }}
-          ssh_key: ${{ secrets.KEY}}
-          ssh_commands: |
+          host: ${{ matrix.server }}
+          username: ${{ matrix.user }}
+          password: ${{ secrets.KEY}}
+          port: ${{ matrix.PORT }}
+          script: |
             cd Documents\\GitHub\\cd-test
             git stash
             git checkout develop
-            git pull
             
       - name: Execute directly with alias provide in first action
         uses: mnival/ssh-remote-commands-action@v0.0.1
