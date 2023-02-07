@@ -30,6 +30,7 @@ jobs:
             cd Documents\\GitHub\\cd-test
             git checkout develop
             ssh -T git@github.com
+            git pull origin develop
             
       - name: Execute directly with alias provide in first action
         uses: mnival/ssh-remote-commands-action@v0.0.1
