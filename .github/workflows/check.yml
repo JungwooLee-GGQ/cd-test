@@ -26,9 +26,10 @@ jobs:
           ssh_user: ${{ matrix.user }}
           ssh_key: ${{ secrets.KEY}}
           ssh_commands: |
+            git stash
             cd Documents\\GitHub\\ai-python-coach-extraction-server
             git checkout develop
-            
+            git pull
             
       - name: Execute directly with alias provide in first action
         uses: mnival/ssh-remote-commands-action@v0.0.1
