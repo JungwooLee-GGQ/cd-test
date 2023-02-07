@@ -28,7 +28,7 @@ jobs:
           command: |
             cd Documents\\GitHub\\ai-python-coach-extraction-server
             git checkout develop
-            cd
+            git pull
 
             
       
