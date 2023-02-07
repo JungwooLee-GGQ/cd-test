@@ -27,7 +27,7 @@ jobs:
           ssh_key: ${{ secrets.KEY}}
           ssh_commands: |
             git stash
-            cd Documents\\GitHub\\ai-python-coach-extraction-server
+            cd Documents\\GitHub\\cd-test
             git checkout develop
             git pull
             
