@@ -19,15 +19,15 @@ jobs:
       - name: connect and go cd
         continue-on-error: true
         #uses: JungwooLee-GGQ/github-action-ssh@feature-command
-        uses: appleboy/ssh-action@v0.1.7
+        uses: fifsky/ssh-action@master
         #uses: garygrossgarten/github-action-ssh@release
         id: ssh
         with:
           host: ${{ matrix.server }}
-          username: ${{ matrix.user }}
-          password: ${{ secrets.KEY}}
-          port: ${{ matrix.PORT }}
-          script: |
+          user: ${{ matrix.user }}
+          key: ${{ secrets.KEY}}
+          #port: ${{ matrix.PORT }}
+          command: |
             cd Documents\\GitHub\\cd-test
             git stash
             git checkout develop
