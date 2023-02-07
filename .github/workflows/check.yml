@@ -18,14 +18,14 @@ jobs:
     steps:
       - name: connect and go cd
         #uses: JungwooLee-GGQ/github-action-ssh@feature-command
-        uses: fifsky/ssh-action@master
+        uses: huaweicloud/ssh-remote-action@v1.0.0
         #uses: garygrossgarten/github-action-ssh@release
         with:
-          host: ${{ matrix.server }}
-          user: ${{ matrix.user }}
-          key: ${{ secrets.KEY}}
+          ipaddr: ${{ matrix.server }}
+          username: ${{ matrix.user }}
+          password: ${{ secrets.KEY}}
           command: | 
-            cd /Documents
+            cd Documents
             cd
             
             
