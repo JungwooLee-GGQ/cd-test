@@ -17,6 +17,7 @@ jobs:
         
     steps:
       - name: connect and go cd
+        continue-on-error: true
         #uses: JungwooLee-GGQ/github-action-ssh@feature-command
         uses: mnival/ssh-remote-commands-action@v0.0.1
         #uses: garygrossgarten/github-action-ssh@release
@@ -29,7 +30,7 @@ jobs:
             git stash
             cd Documents\\GitHub\\cd-test
             git checkout develop
-            git pull origin develop
+            
             
       - name: Execute directly with alias provide in first action
         uses: mnival/ssh-remote-commands-action@v0.0.1
